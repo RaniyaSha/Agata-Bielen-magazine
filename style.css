@@ -1,0 +1,59 @@
+.firstPage {
+    height: 1000px;
+    background-color: #ede0df;
+}
+
+.bodyLeft {
+    width: 50%;
+    height: 1000px;
+    float: left;
+}
+
+.firstPageLeft {
+    background-color: #ffffff;
+}
+
+.image-wrapper {
+    height: 1000px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.firstPagePhoto {
+    height: 85%;
+}
+
+.rectangle {
+    height: 100%;
+}
+
+.next, .agata {
+    float: right;
+}
+
+h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: #000000;
+}
+
+h2 {
+    width: 170px;
+    height: 335px;
+    font-size: 14px;
+    padding-top: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.firstPageLeft h1 {
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.h2wrapper {
+    margin-top: 30%;
+    margin-left: 70%;
+    margin-right: -3%;
+    border-top: 1px solid #000000;
+}
