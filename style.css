@@ -16,15 +16,16 @@
 .image-wrapper {
     height: 1000px;
     display: flex;
-    justify-content:center;
     align-items: center;
 }
 .firstPagePhoto {
     height: 85%;
+    left: 87.5%;
 }
 
-.rectangle {
+.firstPageRectangle {
     height: 100%;
+    left: 87.5%;
 }
 
 .next, .agata {
@@ -57,3 +58,26 @@ h2 {
     margin-right: -3%;
     border-top: 1px solid #000000;
 }
+
+.secondPage {
+    height: 1000px;
+    background-color: #ffffff;
+    background-image: url(images/secondPageBackground.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.secondPagePhoto {
+    position: absolute;
+    left: 12.5%;
+    top: 1000px;
+}
+
+.secondPageRectangle {
+    size: 70%;
+    position: absolute;
+    left: 8%;
+    top: 1000px;
+}
+    
+    
